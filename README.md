@@ -1,29 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>ProBola AI – Palpites com IA</title>
+  <title>ProBola AI – App Online</title>
   <style>
-    body { font-family: Arial, sans-serif; background: #f7f7f7; padding: 20px; color: #222; }
-    h1 { color: #2c3e50; }
-    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-    th, td { border: 1px solid #ccc; padding: 12px; text-align: center; }
-    th { background-color: #34495e; color: white; }
-    tr:nth-child(even) { background-color: #ecf0f1; }
+    body { font-family: Arial; background: #fff; color: #111; padding: 20px; }
+    table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+    th, td { border: 1px solid #aaa; padding: 10px; text-align: center; }
+    th { background: #333; color: #fff; }
+    tr:nth-child(even) { background: #f0f0f0; }
     .ok { color: green; font-weight: bold; }
     .nao { color: red; font-weight: bold; }
   </style>
 </head>
 <body>
-  <h1>ProBola AI</h1>
-  <p>Palpites gerados com inteligência artificial para apostas esportivas. Apenas previsões com confiança acima de 80% e sugestões de cash out com 70%+ são exibidas.</p>
-
+  <h1>ProBola AI – Palpites Inteligentes</h1>
+  <p>Palpites com IA para apostas. Apenas jogos com confiança ≥ 80% e sugestões de cash out com 70% ou mais.</p>
   <table>
     <tr>
       <th>Jogo</th>
       <th>Previsão</th>
-      <th>Confiança (%)</th>
-      <th>Cash Out Recomendado</th>
+      <th>Confiança</th>
+      <th>Cash Out</th>
     </tr>
     <tr>
       <td>Flamengo x Palmeiras</td>
