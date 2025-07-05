@@ -16,7 +16,7 @@
 </head>
 <body>
   <h1>ProBola AI</h1>
-  <p>Palpites gerados com inteligência artificial para apostas esportivas. Acesse apenas os palpites com mínimo de 80% de confiabilidade e sugestões de cash out antecipado.</p>
+  <p>Palpites gerados com inteligência artificial para apostas esportivas. Apenas previsões com confiança acima de 80% e sugestões de cash out com 70%+ são exibidas.</p>
 
   <table>
     <tr>
