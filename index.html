@@ -27,7 +27,7 @@
 
   <script>
     async function carregarJogos() {
-      const url = "https://cors-anywhere.herokuapp.com/https://v3.football.api-sports.io/fixtures?league=71&season=2024&next=5";
+      const url = "https://corsproxy.io/?https://v3.football.api-sports.io/fixtures?league=71&season=2024&next=5";
       try {
         const resposta = await fetch(url, {
           method: "GET",
@@ -53,7 +53,7 @@
             </tr>`;
         });
       } catch (erro) {
-        alert("Erro ao carregar os dados. Ative o proxy em https://cors-anywhere.herokuapp.com/corsdemo");
+        alert("Erro ao carregar os dados. Verifique sua conexão ou a API.");
       }
     }
 
