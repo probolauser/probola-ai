@@ -41,8 +41,8 @@
       dados.response.forEach((jogo) => {
         const casa = jogo.teams.home.name;
         const visitante = jogo.teams.away.name;
-        const confianca = Math.floor(Math.random() * 21) + 80; // 80 a 100%
-        const cashout = confianca >= 90 ? "Sim (" + Math.floor(Math.random() * 11 + 70) + "%)" : "Não";
+        const confianca = Math.floor(Math.random() * 21) + 80;
+        const cashout = confianca >= 90 ? "Sim (" + (70 + Math.floor(Math.random() * 11)) + "%)" : "Não";
 
         tabela.innerHTML += `
           <tr>
