@@ -27,13 +27,13 @@
 
   <script>
     async function carregarJogos() {
-      const endpoint = "https://v3.football.api-sports.io/fixtures?league=71&season=2024&next=5";
+      const endpoint = "https://v3.football.api-sports.io/fixtures?league=71&season=2023&next=5";
       const url = "https://calm-water-96eb.alexsandropereira508.workers.dev/?url=" + encodeURIComponent(endpoint);
 
       try {
         const resp = await fetch(url, {
           headers: {
-            "x-apisports-key": "86b3236f88ad74c3d59642671e448f6b"
+            "x-apisports-key": "7de606e6326d3378a5fca98c4803c227"
           }
         });
         const dados = await resp.json();
