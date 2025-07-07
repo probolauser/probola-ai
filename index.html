@@ -27,7 +27,7 @@
 
   <script>
     async function carregarJogos() {
-      const url = "https://corsproxy.io/?https://v3.football.api-sports.io/fixtures?league=71&season=2024&next=5";
+      const url = "https://corsproxy.io/?https://v3.football.api-sports.io/fixtures?league=39&season=2024&next=10";
       try {
         const resposta = await fetch(url, {
           method: "GET",
@@ -38,6 +38,11 @@
 
         const dados = await resposta.json();
         const tabela = document.getElementById("games-table");
+
+        if (!dados.response || dados.response.length === 0) {
+          tabela.innerHTML += '<tr><td colspan="3">Nenhum jogo encontrado.</td></tr>';
+          return;
+        }
 
         dados.response.forEach((jogo) => {
           const casa = jogo.teams.home.name;
